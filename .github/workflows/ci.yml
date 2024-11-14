@@ -31,7 +31,7 @@ jobs:
       # TASK 0 - Runs a MATLAB command using run-command action
       - name: Run MATLAB command
         uses: matlab-actions/run-command@v2
-         with:
+        with:
            command: ver
 
       # TASK 1 - Runs all tests in the repository using run-tests action
